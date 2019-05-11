@@ -1,0 +1,220 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 487
+  ClientWidth = 303
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Position.X = 3.000000000000000000
+    Position.Y = 2.000000000000000000
+    Size.Width = 295.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    object lblNomeComida: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Sushi de salm'#227'o'
+      TabOrder = 0
+    end
+    object Label1: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      Text = 'Comida Japonesa'
+      TabOrder = 1
+    end
+    object lblValorSushi: TLabel
+      Position.X = 166.000000000000000000
+      Position.Y = 32.000000000000000000
+      Text = 'R$ 32,00'
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Position.X = 248.000000000000000000
+      Position.Y = 59.000000000000000000
+      Size.Width = 43.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Pagto'
+    end
+  end
+  object Rectangle3: TRectangle
+    Position.X = 3.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 295.000000000000000000
+    Size.Height = 128.000000000000000000
+    Size.PlatformDefault = False
+    object Label6: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Cerveja'
+      TabOrder = 0
+    end
+    object Label7: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 29.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      Text = 'Bebidas'
+      TabOrder = 1
+    end
+    object Label8: TLabel
+      Position.X = 169.000000000000000000
+      Position.Y = 11.000000000000000000
+      Text = 'R$ 5,00'
+      TabOrder = 2
+    end
+    object Button3: TButton
+      Position.X = 248.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 43.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Button1'
+    end
+    object Label3: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 59.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Batata Frita'
+      TabOrder = 4
+    end
+    object Label4: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 19.000000000000000000
+      Position.Y = 83.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      Text = 'Comida Mundial'
+      TabOrder = 5
+    end
+    object Label5: TLabel
+      Position.X = 169.000000000000000000
+      Position.Y = 67.000000000000000000
+      Text = 'R$ 12,00'
+      TabOrder = 6
+    end
+  end
+  object Rectangle4: TRectangle
+    Position.X = 7.000000000000000000
+    Position.Y = 347.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Position.X = 7.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 259.000000000000000000
+      Size.Height = 106.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button4: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 224.000000000000000000
+      Position.Y = 77.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Ass.'
+      OnClick = Button4Click
+    end
+  end
+  object Rectangle2: TRectangle
+    Position.X = 3.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 295.000000000000000000
+    Size.Height = 78.000000000000000000
+    Size.PlatformDefault = False
+    object Button2: TButton
+      Position.X = 248.000000000000000000
+      Position.Y = 37.000000000000000000
+      Size.Width = 43.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Button1'
+    end
+    object Label9: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 139.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Sub Total'
+      TabOrder = 1
+    end
+    object Label11: TLabel
+      Position.X = 169.000000000000000000
+      Position.Y = 46.000000000000000000
+      Text = 'R$ 49,00'
+      TabOrder = 2
+    end
+    object Label12: TLabel
+      Position.X = 169.000000000000000000
+      Position.Y = 7.000000000000000000
+      Text = 'R$ 49,00'
+      TabOrder = 3
+    end
+    object Label10: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 14.000000000000000000
+      Position.Y = 51.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Ink Free'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Total '
+      TabOrder = 4
+    end
+  end
+  object Label2: TLabel
+    Position.X = 5.000000000000000000
+    Position.Y = 322.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'Label2Style1'
+    Text = 'Assinatura do cliente:'
+    TabOrder = 4
+  end
+end

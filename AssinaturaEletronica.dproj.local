@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/02 22:08:38.000.764,=C:\Project\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/05/04 08:38:23.000.059,=C:\Project\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/05/04 08:42:56.000.606,=C:\Project\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/05/04 09:18:05.000.092,C:\Project\Delphi\Unit1.pas=C:\Project\Delphi\AssinaturaEletronicaFM\uFrmPrincipalAssinaturaEletronica.pas</Transaction>
+    <Transaction>2019/05/04 09:18:05.000.092,C:\Project\Delphi\Unit1.fmx=C:\Project\Delphi\AssinaturaEletronicaFM\uFrmPrincipalAssinaturaEletronica.fmx</Transaction>
+    <Transaction>2019/05/04 09:18:18.000.639,C:\Project\Delphi\Unit2.pas=C:\Project\Delphi\AssinaturaEletronicaFM\uFrmAssinaturaEletronica.pas</Transaction>
+    <Transaction>2019/05/04 09:18:18.000.639,C:\Project\Delphi\Unit2.fmx=C:\Project\Delphi\AssinaturaEletronicaFM\uFrmAssinaturaEletronica.fmx</Transaction>
+    <Transaction>2019/05/04 09:21:00.000.844,C:\Project\Delphi\Project1.dproj=C:\Project\Delphi\AssinaturaEletronicaFM\AssinaturaEletronica.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

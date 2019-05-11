@@ -1,0 +1,86 @@
+object FrmAssinaturaEletronica: TFrmAssinaturaEletronica
+  Left = 0
+  Top = 0
+  Caption = 'Assinatura eletr'#244'nica'
+  ClientHeight = 487
+  ClientWidth = 303
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object imgAssinaturaEletronica: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = -8.000000000000000000
+    Size.Width = 487.000000000000000000
+    Size.Height = 244.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+  end
+  object Layout1: TLayout
+    Align = Left
+    Size.Width = 50.000000000000000000
+    Size.Height = 487.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lblAssinaturaEletronica: TLabel
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      StyledSettings = [Family, FontColor]
+      Position.X = -100.000000000000000000
+      Position.Y = 258.000000000000000000
+      RotationAngle = 270.000000000000000000
+      Size.Width = 250.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = '               Assinatura eletr'#244'nica'
+      TabOrder = 0
+    end
+    object btnAssinaturaOk: TButton
+      Anchors = [akTop, akRight]
+      Position.X = 5.000000000000000000
+      Position.Y = 23.000000000000000000
+      RotationAngle = 270.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Ok'
+    end
+    object btnLImpar: TButton
+      Anchors = [akTop, akRight]
+      Position.X = 6.000000000000000000
+      Position.Y = 76.000000000000000000
+      RotationAngle = 270.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'X'
+      OnClick = btnLImparClick
+    end
+    object btnVoltar: TButton
+      Anchors = [akLeft, akBottom]
+      Position.X = 5.000000000000000000
+      Position.Y = 433.000000000000000000
+      RotationAngle = 270.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = '<-'
+      OnClick = btnVoltarClick
+    end
+  end
+  object rtgAssinaturaEletronica: TRectangle
+    Align = Client
+    Size.Width = 253.000000000000000000
+    Size.Height = 487.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
